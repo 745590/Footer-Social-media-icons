@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+body{
+    display: flex;
+    justify-content: center;
+    translate: 0 200%;
+    background-color: black;
+}
+.container{
+    height: 70px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icons{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: 10ms all ease-in-out;
+}
+i{
+    cursor: pointer;
+    font-size: 25px;
+}
+.icons:hover{
+    height: 52px;
+    width: 52px;
+}
+.insta:hover{
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e16e30, #fd1d1d);
+}
+.twitter:hover{
+    background-color: rgb(8, 66, 154);
+}
+.yt:hover{
+    background-color: #fd1d1d;
+}
+.linkedin:hover{
+    background-color: rgb(43, 55, 226);
+}
